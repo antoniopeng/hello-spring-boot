@@ -8,9 +8,8 @@ import tk.mybatis.mapper.common.MySqlMapper;
  * <p>Title: MyMapper</p>
  * <p>Description: </p>
  *
- * @author Lusifer
+ * @author AntonioPeng
  * @version 1.0.0
- * @date 2018/5/29 0:57
  */
 public interface MyMapper<T> extends Mapper<T>, MySqlMapper<T> {
 
