@@ -1,2 +1,2 @@
 # hello-spring-boot
-Spring Boot 整合系列
+Spring Boot 脚手架
