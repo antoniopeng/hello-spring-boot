@@ -1,2 +1,2 @@
 # spring-boot-series
-Spring Boot 脚手架
+Spring Boot 项目快速开发脚手架
