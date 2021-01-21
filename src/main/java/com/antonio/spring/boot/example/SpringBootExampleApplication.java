@@ -1,9 +1,9 @@
 package com.antonio.spring.boot.example;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@EnableAutoConfiguration
+@SpringBootApplication
 public class SpringBootExampleApplication {
 
     public static void main(String[] args) {
