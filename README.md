@@ -1,2 +1,2 @@
 # spring-boot-example
-Spring Boot 项目快速开发脚手架
+Spring Boot 项目模板，上手即用
