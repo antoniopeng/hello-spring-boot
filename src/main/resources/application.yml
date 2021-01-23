@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://127.0.0.1:3306/test?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: root
+      password: 123456
+      initial-size: 1
+      min-idle: 1
+      max-active: 20
+      test-on-borrow: true
+      driver-class-name: com.mysql.jdbc.Driver # MySQL 8.x: com.mysql.cj.jdbc.Driver
+  redis:
+    database: 0
+    password: 123456
+    port: 6379
+    host: 192.168.66.128
+    lettuce.pool.min-idle: 5
+    lettuce.pool.max-idle: 10
+    lettuce.pool.max-active: 8
+    lettuce.pool.max-wait: 1ms
+    lettuce.shutdown-timeout: 100ms
+
+mybatis:
+  type-aliases-package: # 实体类的存放路径，如：com.antoniopeng.hello.spring.boot.entity
+  mapper-locations: classpath:mapper/**/*.xml # mapper.xml 文件存放路径，这里存放在配置文件目录 resources 下
+
+logging:
+  level:
+    com.antonio.spring.boot.example: debug # 配置监听日志
